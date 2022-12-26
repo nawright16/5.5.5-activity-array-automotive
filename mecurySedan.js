@@ -8,6 +8,11 @@ console.log(v.make)
 class Car extends Vehicle {
     constructor(make, model, year, color, mileage) {
         super(make, model, year, color, mileage);
-        
+        this.maximumPassengers = 5;
+        this.passenger = 0;
+        this.numOfWheels = 4;
+        this.maxSpeed = 160;
+        this.fuel = 10;
+        this.scheduleService = false;
     }
 }
